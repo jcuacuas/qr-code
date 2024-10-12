@@ -1,0 +1,30 @@
+.qr-code__container {
+    background: var(--white);
+    border-radius: 20px;
+    margin: 10rem auto;
+    padding: 2rem 0;
+    width: 355px;
+    box-shadow: 5px 5px 10px 0 rgba(0,0,0,0.35);
+}
+
+.qr-code__img {
+    width: 20rem;
+    height: 20rem;
+    margin-inline: auto;
+    border-radius: 10px;
+}
+
+.qr-code__header {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 2rem auto;
+    max-width: 17ch;
+}
+
+.qr-code__text {
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--slate-500);
+    margin-inline: auto;
+    max-width: 28ch;
+}
