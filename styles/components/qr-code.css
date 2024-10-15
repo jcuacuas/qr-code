@@ -1,8 +1,8 @@
 .qr-code__container {
     background: var(--white);
-    border-radius: 20px;
+    border-radius: var(--radius-20);
     margin: 10rem auto;
-    padding: 2rem 0;
+    padding: 1rem 0 2rem;
     width: 355px;
     box-shadow: 5px 5px 10px 0 rgba(0,0,0,0.1);
 }
@@ -10,21 +10,23 @@
 .qr-code__img {
     width: 20rem;
     height: 20rem;
+    border-radius: var(--radius-10);
     margin-inline: auto;
-    border-radius: 10px;
 }
 
 .qr-code__header {
     font-size: 1.5rem;
     font-weight: 700;
-    margin: 2rem auto;
-    max-width: 17ch;
+    margin: 1rem 2rem;
 }
 
 .qr-code__text {
     font-size: 1rem;
     font-weight: 400;
     color: var(--slate-500);
-    margin-inline: auto;
-    max-width: 28ch;
+    margin: 0 2rem 0;
 }
+
+.attribution {
+    color: var(--slate-500);
+} 

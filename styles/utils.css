@@ -2,18 +2,16 @@
 @media (max-width: 375px) {
     .qr-code__container {
         width: 280px;
-        margin: 2.5rem auto;
+        margin: 5rem auto;
     }
 
     .qr-code__img {
         width: 15rem;
         height: 15rem;
     }
-
     
     .qr-code__header {
         font-size: 1.2rem;
-        margin: 1rem auto;
     }
 
     .qr-code__text {
